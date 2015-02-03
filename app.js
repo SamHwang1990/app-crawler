@@ -12,7 +12,7 @@ var format = require('string-template');
 var app = express();
 
 var fetchUrl = function(url, callback){
-    request.get('http://ce.sysu.edu.cn/hope/Experience/Index.aspx')
+    request.get(url)
         .end(function(err, sres){
             if(err){
                 callback(err, null);
@@ -67,3 +67,5 @@ app.use(function (err, req, res, next) {
 app.listen(3000, function(){
    console.log('server listen on port 3000.');
 });
+
+module.exports = app;
