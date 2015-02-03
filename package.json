@@ -1,0 +1,17 @@
+{
+  "name": "app-crawler",
+  "version": "0.0.1",
+  "description": "a node crawler application for APP",
+  "main": "app.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": "git@github.com:SamHwang1990/app-crawler.git",
+  "author": "samhwang1990@gmail.com",
+  "license": "MIT",
+  "devDependencies": {
+    "istanbul": "^0.3.5",
+    "mocha": "^2.1.0",
+    "should": "^4.6.3"
+  }
+}
